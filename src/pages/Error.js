@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import bg3 from "../assets/images/robinbg.jpg";
-import errorImage from "../assets/images/error.png";
+import errorImage from "../assets/images/error1.png";
 import './error.css';
 
 function Error() {
@@ -18,7 +18,6 @@ function Error() {
         >
         
     <div className="container mt-5">
-      <h1 className="text-center mb-0">Error</h1>
       <img 
         src={errorImage} 
         alt="Page Not Found" 
